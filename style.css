@@ -1,4 +1,7 @@
+/* Importing Google Fonts for 'Lato' and 'Playfair Display' */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+
+/* Global styling for all elements */
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +9,7 @@
   font-family: "Lato", sans-serif;
 }
 
+/* Styling for the entire page */
 body,
 html {
   overflow-x: hidden;
@@ -18,6 +22,7 @@ html {
   justify-content: center;
 }
 
+/* Styling for main heading */
 h1 {
   font-family: "Playfair Display", serif !important;
   font-weight: 700;
@@ -25,6 +30,7 @@ h1 {
   margin-bottom: 20px;
 }
 
+/* Styling for buttons */
 button {
   font-family: "Playfair Display", serif;
   font-weight: 700;
@@ -37,11 +43,13 @@ button {
   cursor: pointer;
 }
 
+/* Hover effect for buttons */
 button:hover {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
 }
 
+/* Styling for color input section */
 .colors {
   display: flex;
   flex-direction: row;
@@ -52,6 +60,7 @@ button:hover {
   margin-bottom: 20px;
 }
 
+/* Styling for color input fields */
 input[type="color"] {
   width: 70px;
   height: 50px;
@@ -60,6 +69,7 @@ input[type="color"] {
   border: 1px solid black;
 }
 
+/* Additional styling for color input fields in WebKit browsers */
 input[type="color"]::-webkit-color-swatch-wrapper {
   padding: 0;
 }
@@ -68,6 +78,7 @@ input[type="color"]::-webkit-color-swatch {
   border: none;
 }
 
+/* Styling for various headings */
 h2 {
   margin-bottom: 10px;
   text-align: center;
@@ -77,6 +88,7 @@ h3 {
   text-align: center;
 }
 
+/* Media query for responsive design on smaller screens */
 @media (max-width: 560px) {
   h1 {
     font-size: 20px;
