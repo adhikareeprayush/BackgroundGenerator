@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Metadata for character set and viewport -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Link to external stylesheet -->
     <link rel="stylesheet" href="style.css" />
+    
+    <!-- Title of the HTML document -->
     <title>Background Generator</title>
   </head>
   <body>
+    <!-- Main heading of the page -->
     <h1>Background Generator</h1>
+    
+    <!-- Color input fields for selecting background colors -->
     <div class="colors">
       <input id="color1" type="color" name="color1" value="#00ff00" />
       <input id="color2" type="color" name="color2" value="#ff0000" />
     </div>
+    
+    <!-- Display the current CSS background gradient -->
     <h2>Current CSS Background</h2>
     <h3>linear-gradient(to right, rgb(0, 255, 0), rgb(255, 0, 0));</h3>
+    
+    <!-- Button to generate a random background -->
     <button class="random" id="random">Random</button>
+    
+    <!-- Include the JavaScript file for dynamic functionality -->
     <script src="scripts.js"></script>
   </body>
 </html>
